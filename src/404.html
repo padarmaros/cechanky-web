@@ -1,0 +1,31 @@
+{{> partials/main }}
+
+<head>
+
+    {{> partials/title-meta title="404" }}
+
+    {{> partials/head-css }}
+
+</head>
+
+<body class="font-body bg-white">
+
+    <section class="h-screen w-full flex items-center justify-center">
+        <div class="container">
+            <div class="text-center -mt-14">
+                <img src="assets/images/404.jpg" class="mx-auto" alt="">
+
+                <h2 class="lg:text-56/[58px] md:text-5xl/[58px] text-4xl/[58px] font-medium mt-12">WE CAN'T FIND THAT PAGE</h2>
+                <p class="text-base/7 font-medium mt-6">The page you are looking for was moved, removed, renamed or never existed.</p>
+                <div class="flex items-center justify-center mt-6">
+                    <a href="index.html" class="h-[60px] w-[182px] inline-flex items-center justify-center text-base/[25px] font-medium text-white bg-primary">Back Home</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {{> partials/vendor-scripts }}
+
+</body>
+
+</html>

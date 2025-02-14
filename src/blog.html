@@ -1,0 +1,349 @@
+{{> partials/main }}
+
+<head>
+
+    {{> partials/title-meta title="Blog" }}
+
+    {{> partials/head-css }}
+
+</head>
+
+<body class="font-body bg-white">
+
+    {{> partials/header}}
+
+    <!-- home Start -->
+    <section class="bg-no-repeat bg-cover bg-left bg-[url('/assets/images/bred.jpg')]">
+        <div class="container">
+            <div class="pt-40 pb-24 text-center">
+                <h2 class="xl:text-7xl md:text-5xl text-4xl font-medium text-gray-200 lg:mt-8 md:mt-5 mt-3">
+                    Blog
+                </h2>
+
+                {{> partials/page-title title="Blog" }}
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Start -->
+    <section class="lg:my-32 my-16">
+        <div class="container">
+            <div class="grid xl:grid-cols-3 grid-cols-1 gap-10">
+                <!-- 1 -->
+                <div>
+                    <div class="xl:max-w-[350px] max-w-full">
+                        <!-- form -->
+                        <form>
+                            <div class="relative inline-block w-full">
+                                <input style="outline: none;" id="text1" type="text"
+                                    class="block relative w-full border-b py-3 ltr:pe-10 rtl:ps-10 ring-inset ltr:ring-0 rtl:left-0 placeholder:text-gray-400 focus:outline-0 focus:ring-0 sm:text-sm sm:leading-6 transition-all duration-500"
+                                    required="">
+                                <div class="absolute top-4 ltr:start-auto ltr:right-3 rtl:start-3 rtl:end-auto">
+                                    <label for="text" class="block text-base/[25px] font-medium leading-6 rotate-90">
+                                        <i class="ri-search-line rotate-180 cursor-pointer showPassword"></i>
+                                    </label>
+                                </div>
+                            </div>
+                        </form>
+
+                        <h5 class="text-2xl font-medium capitalize mt-14">Recent Posts</h5>
+
+                        <div class="space-y-5 mt-5">
+                            <!-- 1 -->
+                            <div class="flex items-start gap-4">
+                                <a href="details-1.html">
+                                    <div
+                                        class="h-20 w-20 object-fill object-center bg-cover bg-center bg-[url('/assets/images/blog/06.jpg')]">
+                                    </div>
+                                </a>
+                                <div>
+                                    <h4 class="text-base/8 font-medium hover:text-primary transition-all duration-500">
+                                        <a href="details-1.html">Health Benefits of White Wine</a>
+                                    </h4>
+                                    <span class="text-base/[25px] font-normal">
+                                        <script>
+                                            var currentDate = new Date();
+                                            var options = { day: 'numeric', month: 'long', year: 'numeric' };
+                                            var formattedDate = currentDate.toLocaleDateString('en-IN', options); // Adjust 'en-IN' for your locale
+            
+                                            document.write(formattedDate);
+                                        </script>
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- 2 -->
+                            <div class="flex items-start gap-4">
+                                <a href="details-2.html">
+                                    <div
+                                        class="h-20 w-20 object-fill object-center bg-cover bg-center bg-[url('/assets/images/blog/04.jpg')]">
+                                    </div>
+                                </a>
+                                <div>
+                                    <h4 class="text-base/8 font-medium hover:text-primary transition-all duration-500">
+                                        <a href="details-2.html">The Art of Winemaking</a>
+                                    </h4>
+                                    <span class="text-base/[25px] font-normal">
+                                        <script>
+                                            var currentDate = new Date();
+                                            var options = { day: 'numeric', month: 'long', year: 'numeric' };
+                                            var formattedDate = currentDate.toLocaleDateString('en-IN', options); // Adjust 'en-IN' for your locale
+            
+                                            document.write(formattedDate);
+                                        </script>
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- 3 -->
+                            <div class="flex items-start gap-4">
+                                <a href="details-3.html">
+                                    <div
+                                        class="h-20 w-20 object-fill object-center bg-cover bg-center bg-[url('/assets/images/blog/03.jpg')]">
+                                    </div>
+                                </a>
+                                <div>
+                                    <h4 class="text-base/8 font-medium hover:text-primary transition-all duration-500">
+                                        <a href="details-3.html">Winery With Great History</a>
+                                    </h4>
+                                    <span class="text-base/[25px] font-normal">
+                                        <script>
+                                            var currentDate = new Date();
+                                            var options = { day: 'numeric', month: 'long', year: 'numeric' };
+                                            var formattedDate = currentDate.toLocaleDateString('en-IN', options); // Adjust 'en-IN' for your locale
+            
+                                            document.write(formattedDate);
+                                        </script>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr class="text-zinc-700 mt-12 mb-5">
+
+                        <h5 class="text-2xl font-medium capitalize">Recent Comments</h5>
+                        <p class="text-base/[25px] font-normal mt-5">
+                            <a href="index.html">No comments to show.</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="lg:col-span-2">
+                    <div class="grid sm:grid-cols-2 grid-cols-1 gap-10">
+                        <!-- 1 -->
+                        <div>
+                            <div class="inline-block w-full overflow-hidden">
+                                <a href="details-1.html">
+                                    <div
+                                        class="h-[261px] w-full object-fill object-center scale-100 hover:scale-105 transition-all duration-500 bg-cover bg-center bg-[url('/assets/images/blog/06.jpg')]">
+                                    </div>
+                                </a>
+                            </div>
+                            <h2
+                                class="text-2xl font-medium capitalize truncate hover:text-primary transition-all duration-500 mt-2">
+                                <a href="details-1.html">Health Benefits of White Wine</a>
+                            </h2>
+                            <div class="space-x-1.5 my-3">
+                                <span class="text-base/[25px] font-normal text-primary">
+                                    <script>
+                                        var currentDate = new Date();
+                                        var options = { day: 'numeric', month: 'long', year: 'numeric' };
+                                        var formattedDate = currentDate.toLocaleDateString('en-IN', options); // Adjust 'en-IN' for your locale
+        
+                                        document.write(formattedDate);
+                                    </script>
+                                </span>
+                            </div>
+                            <p class="text-base/[25px] font-normal">It is a long established fact that a reader will be
+                                distracted by the readable…</p>
+                            <a href="details-1.html"
+                                class="group inline-block gap-2 items-center relative text-base/[25px] font-normal text-zinc-900 hover:text-primary transition-all duration-500 mt-5">
+                                <span
+                                    class="absolute h-px w-7/12 group-hover:w-full transition-all duration-500 rounded bg-zinc-900/80 group-hover:bg-primary -bottom-0"></span>
+                                Read More
+                            </a>
+                        </div>
+
+                        <!-- 2 -->
+                        <div>
+                            <div class="inline-block w-full overflow-hidden">
+                                <a href="details-2.html">
+                                    <div
+                                        class="h-[261px] w-full object-fill object-center scale-100 hover:scale-105 transition-all duration-500 bg-cover bg-center bg-[url('/assets/images/blog/04.jpg')]">
+                                    </div>
+                                </a>
+                            </div>
+                            <h2
+                                class="text-2xl font-medium capitalize truncate hover:text-primary transition-all duration-500 mt-2">
+                                <a href="details-2.html">The Art of Winemaking</a>
+                            </h2>
+                            <div class="space-x-1.5 my-3">
+                                <span class="text-base/[25px] font-normal text-primary">
+                                    <script>
+                                        var currentDate = new Date();
+                                        var options = { day: 'numeric', month: 'long', year: 'numeric' };
+                                        var formattedDate = currentDate.toLocaleDateString('en-IN', options); // Adjust 'en-IN' for your locale
+        
+                                        document.write(formattedDate);
+                                    </script>
+                                </span>
+                            </div>
+                            <p class="text-base/[25px] font-normal">It is a long established fact that a reader will be
+                                distracted by the readable…</p>
+                            <a href="details-2.html"
+                                class="group inline-block gap-2 items-center relative text-base/[25px] font-normal text-zinc-900 hover:text-primary transition-all duration-500 mt-5">
+                                <span
+                                    class="absolute h-px w-7/12 group-hover:w-full transition-all duration-500 rounded bg-zinc-900/80 group-hover:bg-primary -bottom-0"></span>
+                                Read More
+                            </a>
+                        </div>
+
+                        <!-- 3 -->
+                        <div>
+                            <div class="inline-block w-full overflow-hidden">
+                                <a href="details-3.html">
+                                    <div
+                                        class="h-[261px] w-full object-fill object-center scale-100 hover:scale-105 transition-all duration-500 bg-cover bg-center bg-[url('/assets/images/blog/03.jpg')]">
+                                    </div>
+                                </a>
+                            </div>
+                            <h2
+                                class="text-2xl font-medium capitalize truncate hover:text-primary transition-all duration-500 mt-2">
+                                <a href="details-3.html">Winery With Great History</a>
+                            </h2>
+                            <div class="space-x-1.5 my-3">
+                                <span class="text-base/[25px] font-normal text-primary">
+                                    <script>
+                                        var currentDate = new Date();
+                                        var options = { day: 'numeric', month: 'long', year: 'numeric' };
+                                        var formattedDate = currentDate.toLocaleDateString('en-IN', options); // Adjust 'en-IN' for your locale
+        
+                                        document.write(formattedDate);
+                                    </script>
+                                </span>
+                            </div>
+                            <p class="text-base/[25px] font-normal">It is a long established fact that a reader will be
+                                distracted by the readable…</p>
+                            <a href="details-3.html"
+                                class="group inline-block gap-2 items-center relative text-base/[25px] font-normal text-zinc-900 hover:text-primary transition-all duration-500 mt-5">
+                                <span
+                                    class="absolute h-px w-7/12 group-hover:w-full transition-all duration-500 rounded bg-zinc-900/80 group-hover:bg-primary -bottom-0"></span>
+                                Read More
+                            </a>
+                        </div>
+
+                        <!-- 4 -->
+                        <div>
+                            <div class="inline-block w-full overflow-hidden">
+                                <a href="details-4.html">
+                                    <div
+                                        class="h-[261px] w-full object-fill object-center scale-100 hover:scale-105 transition-all duration-500 bg-cover bg-center bg-[url('/assets/images/blog/02.jpg')]">
+                                    </div>
+                                </a>
+                            </div>
+                            <h2
+                                class="text-2xl font-medium capitalize truncate hover:text-primary transition-all duration-500 mt-2">
+                                <a href="details-4.html">Finibus Bonorum Malo</a>
+                            </h2>
+                            <div class="space-x-1.5 my-3">
+                                <span class="text-base/[25px] font-normal text-primary">
+                                    <script>
+                                        var currentDate = new Date();
+                                        var options = { day: 'numeric', month: 'long', year: 'numeric' };
+                                        var formattedDate = currentDate.toLocaleDateString('en-IN', options); // Adjust 'en-IN' for your locale
+        
+                                        document.write(formattedDate);
+                                    </script>
+                                </span>
+                            </div>
+                            <p class="text-base/[25px] font-normal">It is a long established fact that a reader will be
+                                distracted by the readable…</p>
+                            <a href="details-4.html"
+                                class="group inline-block gap-2 items-center relative text-base/[25px] font-normal text-zinc-900 hover:text-primary transition-all duration-500 mt-5">
+                                <span
+                                    class="absolute h-px w-7/12 group-hover:w-full transition-all duration-500 rounded bg-zinc-900/80 group-hover:bg-primary -bottom-0"></span>
+                                Read More
+                            </a>
+                        </div>
+
+                        <!-- 5 -->
+                        <div>
+                            <div class="inline-block w-full overflow-hidden">
+                                <a href="details-5.html">
+                                    <div
+                                        class="h-[261px] w-full object-fill object-center scale-100 hover:scale-105 transition-all duration-500 bg-cover bg-center bg-[url('/assets/images/blog/01.jpg')]">
+                                    </div>
+                                </a>
+                            </div>
+                            <h2
+                                class="text-2xl font-medium capitalize truncate hover:text-primary transition-all duration-500 mt-2">
+                                <a href="details-5.html">The Quality Of The Wine</a>
+                            </h2>
+                            <div class="space-x-1.5 my-3">
+                                <span class="text-base/[25px] font-normal text-primary">
+                                    <script>
+                                        var currentDate = new Date();
+                                        var options = { day: 'numeric', month: 'long', year: 'numeric' };
+                                        var formattedDate = currentDate.toLocaleDateString('en-IN', options); // Adjust 'en-IN' for your locale
+        
+                                        document.write(formattedDate);
+                                    </script>
+                                </span>
+                            </div>
+                            <p class="text-base/[25px] font-normal">It is a long established fact that a reader will be
+                                distracted by the readable…</p>
+                            <a href="details-5.html"
+                                class="group inline-block gap-2 items-center relative text-base/[25px] font-normal text-zinc-900 hover:text-primary transition-all duration-500 mt-5">
+                                <span
+                                    class="absolute h-px w-7/12 group-hover:w-full transition-all duration-500 rounded bg-zinc-900/80 group-hover:bg-primary -bottom-0"></span>
+                                Read More
+                            </a>
+                        </div>
+
+                        <!-- 6 -->
+                        <div>
+                            <div class="inline-block w-full overflow-hidden">
+                                <a href="details-6.html">
+                                    <div
+                                        class="h-[261px] w-full object-fill object-center scale-100 hover:scale-105 transition-all duration-500 bg-cover bg-center bg-[url('/assets/images/blog/05.jpg')]">
+                                    </div>
+                                </a>
+                            </div>
+                            <h2
+                                class="text-2xl font-medium capitalize truncate hover:text-primary transition-all duration-500 mt-2">
+                                <a href="details-6.html">Combine Good Wine with Good Cheese</a>
+                            </h2>
+                            <div class="space-x-1.5 my-3">
+                                <span class="text-base/[25px] font-normal text-primary">
+                                    <script>
+                                        var currentDate = new Date();
+                                        var options = { day: 'numeric', month: 'long', year: 'numeric' };
+                                        var formattedDate = currentDate.toLocaleDateString('en-IN', options); // Adjust 'en-IN' for your locale
+        
+                                        document.write(formattedDate);
+                                    </script>
+                                </span>
+                            </div>
+                            <p class="text-base/[25px] font-normal">It is a long established fact that a reader will be
+                                distracted by the readable…</p>
+                            <a href="details-6.html"
+                                class="group inline-block gap-2 items-center relative text-base/[25px] font-normal text-zinc-900 hover:text-primary transition-all duration-500 mt-5">
+                                <span
+                                    class="absolute h-px w-7/12 group-hover:w-full transition-all duration-500 rounded bg-zinc-900/80 group-hover:bg-primary -bottom-0"></span>
+                                Read More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {{> partials/footer}}
+
+    {{> partials/back-to-top}}
+
+    {{> partials/vendor-scripts }}
+
+</body>
+
+</html>
